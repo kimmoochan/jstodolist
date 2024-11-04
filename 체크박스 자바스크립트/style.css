@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+}
+#container{
+    display: flex;
+}
+#main{
+    display: flex;
+
+}
+
+ol>li{
+    list-style: none;
+}
+li{
+    display: flex;
+}
