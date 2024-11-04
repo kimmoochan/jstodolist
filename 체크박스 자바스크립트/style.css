@@ -3,23 +3,9 @@
     padding: 0;
 }
 
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* margin: 0 auto; */
+#head{
+    margin-top: 20px;
 }
-#container{
-    display: flex;
-}
-#main{
-    display: flex;
-
-}
-
-ol>li{
-    list-style: none;
-}
-li{
-    display: flex;
+body{
+    text-align: center;
 }
