@@ -25,9 +25,9 @@
 
         checkBox.addEventListener('change', (event) => {
             if(checkBox.checked){
-                text.style.textDecorationLine = "opaci"
+                text.style.opacity = "0.5";
             }else{
-                text.style.textDecorationLine = "none"
+                text.style.opacity = "1"
             }
         })
                 
