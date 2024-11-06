@@ -4,8 +4,23 @@
 }
 
 #head{
+    text-align: left;
+    width: 11%;
+    margin: 0 auto;
     margin-top: 20px;
 }
 body{
+    text-align: left;
+}
+div{
+    margin-top: 10px;
+}
+h1{
     text-align: center;
+}
+#save{
+    height: 21px;
+}
+input{
+    margin-right: 5px;
 }
