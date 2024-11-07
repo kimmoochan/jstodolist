@@ -56,9 +56,9 @@ const main = document.querySelector('#main')
     
     
     
-    
+// 엔터키 눌렀을때 추가
     function keyCodeCheck () {
-        
+        // 키코드가 13일때 ( 키코드 13은 엔터키) 실행
         if(window.event.keyCode === 13){
             const item = document.createElement('div') 
             
@@ -98,5 +98,3 @@ const main = document.querySelector('#main')
 }
 
 
-function todoalert (){
-}
