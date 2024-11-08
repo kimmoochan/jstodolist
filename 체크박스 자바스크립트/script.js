@@ -60,6 +60,10 @@ const main = document.querySelector('#main')
     function keyCodeCheck () {
         // 키코드가 13일때 ( 키코드 13은 엔터키) 실행
         if(window.event.keyCode === 13){
+            if(toDo.value==false){
+                alert('내용을 입력해주세요!');
+            }else{
+
             const item = document.createElement('div') 
             
             const checkBox = document.createElement('input')
@@ -85,6 +89,7 @@ const main = document.querySelector('#main')
                 }else{
                     text.style.opacity = "1"
                 }
+                
         })
         
         item.appendChild(checkBox)
@@ -93,6 +98,7 @@ const main = document.querySelector('#main')
         
         main.appendChild(item)
         toDo.value = ''
+    }
     }
     
 }

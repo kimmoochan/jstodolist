@@ -11,9 +11,11 @@
 }
 body{
     text-align: left;
+    background-color: rgb(188, 236, 255);
 }
 div{
     margin-top: 10px;
+    width: 220px;
 }
 h1{
     text-align: center;
