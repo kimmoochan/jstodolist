@@ -5,9 +5,12 @@
 
 #head{
     text-align: left;
-    width: 11%;
+    width: 220px;
     margin: 0 auto;
     margin-top: 20px;
+}
+#head button{
+    margin-left: 12px;
 }
 body{
     text-align: left;
